@@ -1,0 +1,412 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: statsmodels in /hpcfs/apps/anaconda/3.9/lib/python3.9/site-packages (0.12.2)
+Requirement already satisfied: numpy>=1.15 in ./.local/lib/python3.9/site-packages (from statsmodels) (1.23.0)
+Requirement already satisfied: patsy>=0.5 in /hpcfs/apps/anaconda/3.9/lib/python3.9/site-packages (from statsmodels) (0.5.2)
+Requirement already satisfied: scipy>=1.1 in ./.local/lib/python3.9/site-packages (from statsmodels) (1.8.0)
+Requirement already satisfied: pandas>=0.21 in /hpcfs/apps/anaconda/3.9/lib/python3.9/site-packages (from statsmodels) (1.3.4)
+Requirement already satisfied: python-dateutil>=2.7.3 in /hpcfs/apps/anaconda/3.9/lib/python3.9/site-packages (from pandas>=0.21->statsmodels) (2.8.2)
+Requirement already satisfied: pytz>=2017.3 in /hpcfs/apps/anaconda/3.9/lib/python3.9/site-packages (from pandas>=0.21->statsmodels) (2021.3)
+Requirement already satisfied: six in /hpcfs/apps/anaconda/3.9/lib/python3.9/site-packages (from patsy>=0.5->statsmodels) (1.16.0)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pyyaml in /hpcfs/apps/anaconda/3.9/lib/python3.9/site-packages (6.0)
+Soy un JOB de prueba
+Corri en la maquina: nodea-4
+Corri el: nodea-4
+Ejecutando Script de python 
+
+importe las liberias
+Filename: Features
+No.    Name      Ver    Type      Cards   Dimensions   Format
+  0  PRIMARY       1 PrimaryHDU       4   ()      
+  1  8_VKS         1 ImageHDU         8   (66, 267)   float64   
+  2  8_NVKS        1 ImageHDU         8   (66, 300)   float64   
+  3  8_HJD         1 ImageHDU         7   (66,)   float64   
+  4  9_NVKS        1 ImageHDU         8   (68, 350)   float64   
+  5  9_HJD         1 ImageHDU         7   (68,)   float64   
+  6  9_VKS         1 ImageHDU         8   (68, 341)   float64   
+/hpcfs/home/fisica/c.cardenasu/Features_b278.py:735: RuntimeWarning: invalid value encountered in double_scalars
+  ruld_sum = sum([((Y[i] - Y[i + 1]) / abs(Y[i] - Y[i + 1])) * (X[i + 1] - X[i]) for i in range(N - 1)])
+/hpcfs/home/fisica/c.cardenasu/Features_b278.py:60: RuntimeWarning: Mean of empty slice
+  media = np.nanmean(lista)
+/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/numpy/lib/nanfunctions.py:1878: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+Se diferencia el 68.456%
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 4
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+Se diferencia el 85.3%
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+Se diferencia el 50.05%
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 26
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 2
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+Se diferencia el 71,38%
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 2
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 2
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 2
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 1
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 19
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+[-0.96394195  0.          0.          0.         -0.96394195  0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          1.0529212   0.
+ -0.96394195  0.          0.          0.          0.          0.
+  1.0529212   0.          0.          0.          0.          1.0529212
+ -0.96394195 -0.96394195  0.          0.          0.          0.
+  0.         -0.96394195  0.          0.          0.          1.0529212
+ -0.96394195  0.          0.          1.0529212   1.0529212   0.
+  0.          1.0529212   0.          0.          1.0529212   0.
+ -0.96394195  0.          0.          0.          0.          0.
+  0.         -0.96394195  0.         -0.96394195  1.0529212  -0.96394195
+ -0.96394195  1.0529212   0.          0.          0.          0.
+  0.          0.         -0.96394195  0.         -0.96394195  0.
+  0.          0.          1.0529212   0.          0.          0.
+  0.          1.0529212   0.          0.          0.          0.
+  0.          0.          0.          0.          0.          1.0529212
+  0.         -0.96394195  0.          0.          1.0529212   0.
+  1.0529212   1.0529212   0.          0.          0.          0.
+  1.0529212  -0.96394195  0.          0.          0.         -0.96394195
+ -0.96394195  0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.         -0.96394195  0.          0.          0.
+  0.          0.          0.          0.          0.         -0.96394195
+  0.          1.0529212  -0.96394195  0.         -0.96394195  0.
+ -0.96394195  0.          0.          0.          0.          0.
+  0.          0.         -0.96394195  0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          1.0529212   0.          0.
+  0.          0.          1.0529212   1.0529212   0.          1.0529212
+  0.          0.          1.0529212   1.0529212   1.0529212   0.
+  1.0529212   0.          0.          0.         -0.96394195  0.
+ -0.96394195 -0.96394195  0.          0.          0.          0.
+  0.          0.          0.          0.          1.0529212   0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          1.0529212   0.         -0.96394195
+  0.          1.0529212   0.          0.          0.          0.
+ -0.96394195 -0.96394195 -0.96394195 -0.96394195  0.          1.0529212
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  1.0529212   0.          0.          0.04448963  0.          0.
+  0.         -0.96394195  0.         -0.96394195  0.          0.
+  0.          0.          1.0529212   0.          0.         -0.96394195
+  0.          0.          0.        ]
+[ 0.          0.          0.          0.          0.          0.
+  0.         -1.26491106 -1.26491106  0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.         -1.26491106  0.          0.          0.
+  0.          0.         -1.26491106  0.          0.          0.
+  0.          0.          0.79056942  0.          0.          0.
+  0.          0.79056942  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.         -1.26491106
+  0.          0.          0.          0.          0.          0.
+  0.79056942  0.          0.          0.          0.          0.79056942
+  0.79056942  0.          0.          0.         -1.26491106  0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.79056942  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.79056942  0.          0.79056942  0.          0.
+  0.79056942  0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.         -1.26491106  0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.79056942  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.         -1.26491106  0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.79056942  0.          0.          0.          0.
+  0.          0.          0.          0.          0.79056942  0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.79056942  0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.         -1.26491106  0.          0.79056942
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.79056942  0.          0.          0.
+  0.          0.          0.          0.          0.79056942  0.
+  0.          0.          0.          0.          0.          0.
+ -1.26491106  0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.        ]
+Cantidad de objetos en s_novariables antes de la superposición: 10
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 0
+267
+300
+Cantidad de objetos en s_novariables antes de la superposición: 10
+llegue a H20
+Checking whether there is an H2O instance running at http://localhost:54321..... not found.
+Attempting to start a local H2O server...
+  Java Version: openjdk version "1.8.0_152-release"; OpenJDK Runtime Environment (build 1.8.0_152-release-1056-b12); OpenJDK 64-Bit Server VM (build 25.152-b12, mixed mode)
+  Starting server from /hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/backend/bin/h2o.jar
+  Ice root: /tmp/tmpbos1obvv
+  JVM stdout: /tmp/tmpbos1obvv/h2o_c_cardenasu_started_from_python.out
+  JVM stderr: /tmp/tmpbos1obvv/h2o_c_cardenasu_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321 ... successful.
+--------------------------  ----------------------------------
+H2O_cluster_uptime:         08 secs
+H2O_cluster_timezone:       America/Bogota
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.46.0.1
+H2O_cluster_version_age:    1 month and 24 days
+H2O_cluster_name:           H2O_from_python_c_cardenasu_b267ml
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    26.62 Gb
+H2O_cluster_total_cores:    8
+H2O_cluster_allowed_cores:  8
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://127.0.0.1:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+Python_version:             3.9.7 final
+--------------------------  ----------------------------------
+Concatenar
+Se han transcrito las variables a formato H2O
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+567
+Parse progress: |/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/frame.py:1983: H2ODependencyWarning: Converting H2O frame to pandas dataframe using single-thread.  For faster conversion using multi-thread, install datatable (for Python 3.9 or lower), or polars and pyarrow (for Python 3.10 or above) and activate it using:
+
+with h2o.utils.threading.local_context(polars_enabled=True, datatable_enabled=True):
+    pandas_df = h2o_df.as_data_frame()
+
+  warnings.warn("Converting H2O frame to pandas dataframe using single-thread.  For faster conversion using"
+/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/estimators/estimator_base.py:192: RuntimeWarning: Dropping bad and constant columns: [resultados_DeltaM]
+  warnings.warn(mesg["message"], RuntimeWarning)
+████████████████████████████████████████████████████████████████| (done) 100%
+se ha creado el frame de H2O
+se ha calculado la matriz de correlacion
+drf Model Build progress: |██████████████████████████████████████████████████████| (done) 100%
+ModelMetricsBinomial: drf
+** Reported on test data. **
+
+MSE: 0.08619802631206111
+RMSE: 0.29359500389492516
+LogLoss: 0.30340903761574045
+Mean Per-Class Error: 0.0801231383642566
+AUC: 0.9693402113320576
+AUCPR: 0.9711309342994702
+Gini: 0.9386804226641152
+
+Confusion Matrix (Act/Pred) for max f1 @ threshold = 0.4754166665673256
+             No_variable    Variable    Error    Rate
+-----------  -------------  ----------  -------  ------------
+No_variable  107            12          0.1008   (12.0/119.0)
+Variable     6              95          0.0594   (6.0/101.0)
+Total        113            107         0.0818   (18.0/220.0)
+
+Maximum Metrics: Maximum metrics at their respective thresholds
+metric                       threshold    value     idx
+---------------------------  -----------  --------  -----
+max f1                       0.475417     0.913462  101
+max f2                       0.426111     0.936293  108
+max f0point5                 0.59         0.944056  76
+max accuracy                 0.480417     0.918182  99
+max precision                0.985        1         0
+max recall                   0.145        1         155
+max specificity              0.985        1         0
+max absolute_mcc             0.475417     0.83725   101
+max min_per_class_accuracy   0.500054     0.907563  97
+max mean_per_class_accuracy  0.475417     0.919877  101
+max tns                      0.985        119       0
+max fns                      0.985        100       0
+max fps                      0.015        119       197
+max tps                      0.145        101       155
+max tnr                      0.985        1         0
+max fnr                      0.985        0.990099  0
+max fpr                      0.015        1         197
+max tpr                      0.145        1         155
+
+Gains/Lift Table: Avg response rate: 45.91 %, avg score: 45.81 %
+group    cumulative_data_fraction    lower_threshold    lift     cumulative_lift    response_rate    score      cumulative_response_rate    cumulative_score    capture_rate    cumulative_capture_rate    gain     cumulative_gain    kolmogorov_smirnov
+-------  --------------------------  -----------------  -------  -----------------  ---------------  ---------  --------------------------  ------------------  --------------  -------------------------  -------  -----------------  --------------------
+1        0.0136364                   0.964755           2.17822  2.17822            1                0.973333   1                           0.973333            0.029703        0.029703                   117.822  117.822            0.029703
+2        0.0272727                   0.96               2.17822  2.17822            1                0.961237   1                           0.967285            0.029703        0.0594059                  117.822  117.822            0.0594059
+3        0.0363636                   0.959333           2.17822  2.17822            1                0.959333   1                           0.965297            0.019802        0.0792079                  117.822  117.822            0.0792079
+4        0.0409091                   0.958857           2.17822  2.17822            1                0.959196   1                           0.964619            0.00990099      0.0891089                  117.822  117.822            0.0891089
+5        0.05                        0.953797           2.17822  2.17822            1                0.957102   1                           0.963252            0.019802        0.108911                   117.822  117.822            0.108911
+6        0.1                         0.910022           2.17822  2.17822            1                0.93431    1                           0.948781            0.108911        0.217822                   117.822  117.822            0.217822
+7        0.15                        0.864302           2.17822  2.17822            1                0.885794   1                           0.927786            0.108911        0.326733                   117.822  117.822            0.326733
+8        0.2                         0.818364           2.17822  2.17822            1                0.845259   1                           0.907154            0.108911        0.435644                   117.822  117.822            0.435644
+9        0.3                         0.696422           2.17822  2.17822            1                0.749378   1                           0.854562            0.217822        0.653465                   117.822  117.822            0.653465
+10       0.4                         0.55809            1.68317  2.05446            0.772727         0.622281   0.943182                    0.796492            0.168317        0.821782                   68.3168  105.446            0.779765
+11       0.5                         0.438631           1.18812  1.88119            0.545455         0.511663   0.863636                    0.739526            0.118812        0.940594                   18.8119  88.1188            0.814544
+12       0.6                         0.30225            0.19802  1.60066            0.0909091        0.370436   0.734848                    0.678011            0.019802        0.960396                   -80.198  60.066             0.666278
+13       0.704545                    0.18               0.18941  1.39125            0.0869565        0.239678   0.63871                     0.612968            0.019802        0.980198                   -81.059  39.1249            0.50961
+14       0.804545                    0.106667           0.19802  1.24294            0.0909091        0.139348   0.570621                    0.5541              0.019802        1                          -80.198  24.2938            0.361345
+15       0.9                         0.06415            0        1.11111            0                0.0834241  0.510101                    0.50418             0               1                          -100     11.1111            0.184874
+16       1                           0.015              0        1                  0                0.0435978  0.459091                    0.458122            0               1                          -100     0                  0
+
+Importancias relativas de las características de entrenamiento:
+                  variable  relative_importance  scaled_importance  percentage
+0              diferencias          1961.560059           1.000000    0.169614
+1                integrals          1873.477417           0.955096    0.161998
+2               resultados           875.873901           0.446519    0.075736
+3     resultados_slope_min           867.396423           0.442197    0.075003
+4                   VART_s           693.559692           0.353576    0.059971
+5                    rob_s           685.227844           0.349328    0.059251
+6                       os           643.006836           0.327804    0.055600
+7                     av_s           553.133545           0.281987    0.047829
+8                     mads           425.498566           0.216918    0.036792
+9                     proy           415.747437           0.211947    0.035949
+10  resultados_rbLeon_sign           394.592621           0.201163    0.034120
+11                rEucliDs           350.268311           0.178566    0.030287
+12  resultados_r_value_min           343.414917           0.175072    0.029695
+13                   rulds           305.876282           0.155935    0.026449
+14                  random           285.687195           0.145643    0.024703
+15      resultados_reDSign           268.270569           0.136764    0.023197
+16          resultados_eta           127.925186           0.065216    0.011062
+17      resultados_r_value            91.212013           0.046500    0.007887
+18       resultados_rbLeon            88.451210           0.045092    0.007648
+19        resultados_slope            82.027237           0.041817    0.007093
+20          resultados_low            80.036873           0.040803    0.006921
+21                DIFDER_s            79.196533           0.040374    0.006848
+22          resultados_row            73.395477           0.037417    0.006346
+H2O session _sid_b33c closed.
+Cargas Factoriales:
+   Integrals  Differences   Results  ...  rEucliDs  resultados_r_value_min     rulds
+0   0.082381    -0.196361  0.272356  ...  0.068322               -0.477027 -0.131706
+1   0.078982     0.134844  0.645749  ... -0.092978                0.418734 -0.119611
+
+[2 rows x 11 columns]
+finalice HDBSCAN 278
+Exception ignored in: <function ExprNode.__del__ at 0x7fe5b733b1f0>
+Traceback (most recent call last):
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 204, in __del__
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 258, in rapids
+TypeError: 'NoneType' object is not callable
+Exception ignored in: <function ExprNode.__del__ at 0x7fe5b733b1f0>
+Traceback (most recent call last):
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 204, in __del__
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 258, in rapids
+TypeError: 'NoneType' object is not callable
+Exception ignored in: <function ExprNode.__del__ at 0x7fe5b733b1f0>
+Traceback (most recent call last):
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 204, in __del__
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 258, in rapids
+TypeError: 'NoneType' object is not callable
+Exception ignored in: <function ExprNode.__del__ at 0x7fe5b733b1f0>
+Traceback (most recent call last):
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 204, in __del__
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 258, in rapids
+TypeError: 'NoneType' object is not callable
+Exception ignored in: <function ExprNode.__del__ at 0x7fe5b733b1f0>
+Traceback (most recent call last):
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 204, in __del__
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 258, in rapids
+TypeError: 'NoneType' object is not callable
+Exception ignored in: <function ExprNode.__del__ at 0x7fe5b733b1f0>
+Traceback (most recent call last):
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 204, in __del__
+  File "/hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/expr.py", line 258, in rapids
+TypeError: 'NoneType' object is not callable
+Finalice la ejecucion del script 
+

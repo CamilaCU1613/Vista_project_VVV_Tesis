@@ -1,0 +1,121 @@
+Requirement already satisfied: statsmodels in ./.conda/envs/Tesis3/lib/python3.9/site-packages (0.14.2)
+Requirement already satisfied: numpy>=1.22.3 in ./.local/lib/python3.9/site-packages (from statsmodels) (1.23.0)
+Requirement already satisfied: scipy!=1.9.2,>=1.8 in ./.local/lib/python3.9/site-packages (from statsmodels) (1.8.0)
+Requirement already satisfied: pandas!=2.1.0,>=1.4 in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from statsmodels) (2.2.2)
+Requirement already satisfied: patsy>=0.5.6 in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from statsmodels) (0.5.6)
+Requirement already satisfied: packaging>=21.3 in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from statsmodels) (24.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2024.1)
+Requirement already satisfied: six in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from patsy>=0.5.6->statsmodels) (1.16.0)
+Requirement already satisfied: pyyaml in ./.conda/envs/Tesis3/lib/python3.9/site-packages (6.0.1)
+Requirement already satisfied: scikit-learn in ./.conda/envs/Tesis3/lib/python3.9/site-packages (1.4.2)
+Requirement already satisfied: numpy>=1.19.5 in ./.local/lib/python3.9/site-packages (from scikit-learn) (1.23.0)
+Requirement already satisfied: scipy>=1.6.0 in ./.local/lib/python3.9/site-packages (from scikit-learn) (1.8.0)
+Requirement already satisfied: joblib>=1.2.0 in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from scikit-learn) (1.4.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in ./.conda/envs/Tesis3/lib/python3.9/site-packages (from scikit-learn) (3.5.0)
+Soy un JOB de prueba
+Corri en la maquina: nodea-6
+Corri el: nodea-6
+Ejecutando Script de python 
+
+WARNING: File may have been truncated: actual file length (2554920960) is smaller than the expected size (2621206080) [astropy.io.fits.file]
+importe las liberias
+Filename: Medias-Desviacion278.fits
+No.    Name      Ver    Type      Cards   Dimensions   Format
+  0  PRIMARY       1 PrimaryHDU       4   ()      
+  1  MEDIAS        1 ImageHDU         7   (1260548,)   float64   
+  2  MAD           1 ImageHDU         7   (1260548,)   float64   
+  3  KS_NSAT       1 ImageHDU         8   (66, 1202504)   float64   
+  4  EKS_NSAT      1 ImageHDU         8   (66, 1202504)   float64   
+  5  MEDIASNS      1 ImageHDU         7   (1202504,)   float64   
+  6  MADNS         1 ImageHDU         7   (1202504,)   float64   
+  7  Q3_KS         1 ImageHDU         8   (66, 933459)   float64   
+  8  Q3_EKS        1 ImageHDU         8   (66, 933459)   float64   
+  9  D3_KS         1 ImageHDU         8   (66, 308874)   float64   
+ 10  D3_EKS        1 ImageHDU         8   (66, 308874)   float64   
+Filename: Medias-Desviacion279.fits
+No.    Name      Ver    Type      Cards   Dimensions   Format
+  0  PRIMARY       1 PrimaryHDU       4   ()      
+  1  MEDIAS        1 ImageHDU         7   (1280954,)   float64   
+  2  MAD           1 ImageHDU         7   (1280954,)   float64   
+  3  KS_NSAT       1 ImageHDU         8   (68, 1223069)   float64   
+  4  EKS_NSAT      1 ImageHDU         8   (68, 1223069)   float64   
+  5  MEDIASNS      1 ImageHDU         7   (1223069,)   float64   
+  6  MADNS         1 ImageHDU         7   (1223069,)   float64   
+  7  Q3_EKS        1 ImageHDU         8   (68, 956867)   float64   
+  8  Q3_KS         1 ImageHDU         8   (68, 956867)   float64   
+  9  EQ3_EKS       1 ImageHDU         8   (68, 956867)   float64   
+ 10  D3_KS         1 ImageHDU         8   (68, 306755)   float64   
+ 11  ED3_EKS       1 ImageHDU         8   (68, 306755)   float64   
+615629
+<class 'numpy.ndarray'>
+615629
+<class 'numpy.ndarray'>
+615629
+<class 'numpy.ndarray'>
+615629
+<class 'numpy.ndarray'>
+615629
+<class 'list'>
+615629
+<class 'numpy.ndarray'>
+615629
+<class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
+inicie h2o
+Checking whether there is an H2O instance running at http://localhost:54321..... not found.
+Attempting to start a local H2O server...
+  Java Version: openjdk version "1.8.0_152-release"; OpenJDK Runtime Environment (build 1.8.0_152-release-1056-b12); OpenJDK 64-Bit Server VM (build 25.152-b12, mixed mode)
+  Starting server from /hpcfs/home/fisica/c.cardenasu/.local/lib/python3.9/site-packages/h2o/backend/bin/h2o.jar
+  Ice root: /tmp/tmpj2vxyr4q
+  JVM stdout: /tmp/tmpj2vxyr4q/h2o_c_cardenasu_started_from_python.out
+  JVM stderr: /tmp/tmpj2vxyr4q/h2o_c_cardenasu_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321 ... successful.
+--------------------------  ----------------------------------
+H2O_cluster_uptime:         09 secs
+H2O_cluster_timezone:       America/Bogota
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.46.0.1
+H2O_cluster_version_age:    1 month and 29 days
+H2O_cluster_name:           H2O_from_python_c_cardenasu_b2gmh4
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    26.62 Gb
+H2O_cluster_total_cores:    8
+H2O_cluster_allowed_cores:  8
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://127.0.0.1:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+Python_version:             3.9.0 final
+--------------------------  ----------------------------------
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+615629
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+615629
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+615629
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+615629
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+615629
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+615629
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+se ha creado el frame de H2O
+llegue a prediccion
+Traceback (most recent call last):
+  File "/hpcfs/home/fisica/c.cardenasu/Validacion_RamdomF7879.py", line 407, in <module>
+    predictions = model.predict(datos)
+AttributeError: 'str' object has no attribute 'predict'
+Closing connection _sid_8e2c at exit
+H2O session _sid_8e2c closed.
+Finalice la ejecucion del script 
+
